@@ -1,4 +1,4 @@
-// src/pages/Properties.jsx
+
 import React from "react";
 import MainHeader from "../components/MainHeader";
 import { PropertyCard } from "../components/PropertyCard";
@@ -7,8 +7,8 @@ import { FAQSection } from "../components/FAQSection";
 import { properties } from "../assets/Data";
 
 const Properties = () => {
-  // Slice the properties array to get only the first 5 properties
-  const displayedProperties = properties.slice(0, 5);
+  
+  const displayedProperties = properties.slice(0, 6);
 
   return (
     <>
@@ -41,7 +41,7 @@ const Properties = () => {
                 location={property.location}
                 price={property.price}
                 availability={property.availability}
-                id={property.id} // Pass the ID correctly if needed
+                id={property.id} 
               />
             ))}
           </div>

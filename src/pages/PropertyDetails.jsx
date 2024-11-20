@@ -1,16 +1,14 @@
-// src/pages/PropertyDetails.jsx
+
 import React from "react";
 import { useParams, Link } from "react-router-dom";
-import { properties } from "../assets/Data"; // Ensure this path is correct
+import { properties } from "../assets/Data"; 
 import MainHeader from "../components/MainHeader";
 
 export const PropertyDetails = () => {
-  const { id } = useParams(); // Get the property ID from the URL parameters
-  const property = properties.find((p) => p.id === parseInt(id)); // Find the property by ID
-
-  console.log("ID:", id); // Log the ID for debugging
-  console.log("Property:", property); // Log the found property for debugging
-
+  const { id } = useParams(); 
+  const property = properties.find((p) => p.id === parseInt(id)); 
+  console.log("ID:", id); 
+  console.log("Property:", property); 
   if (!property) {
     return (
       <>
@@ -19,10 +17,9 @@ export const PropertyDetails = () => {
         </nav>
         <div className="text-5xl text-red-400">Property not found!</div>
       </>
-    ); // Handle case where property is not found
+    ); 
   }
 
-  // Get related properties (excluding the current property)
   const relatedProperties = properties.filter((p) => p.id !== property.id);
 
   return (

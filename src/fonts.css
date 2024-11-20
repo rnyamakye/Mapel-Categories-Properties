@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "GeneralSans";
+  src: url("./fonts/GeneralSans-Variable.ttf") format("trutype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GeneralSans";
+  src: url("./fonts/GeneralSans-Variable.ttf") format("trutype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GeneralSans";
+  src: url("./fonts/GeneralSans-Variable.ttf") format("trutype");
+  font-weight: lighter;
+  font-style: normal;
+}

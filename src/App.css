@@ -1,12 +1,14 @@
-
 body {
-  font-family: "GeneralSans", sans-serif;
+  font-family: "General Sans", sans-serif;
+  overflow-x: hidden;
 }
-/* section {
-  width: 95%;
+
+@font-face {
+  font-family: "General Sans";
+  src: url("/src/assets/Fonts/Variable/GeneralSans-Variable.ttf")
+      format("truetype"),
+    url("/src/assets/Fonts/WEB/fonts/GeneralSans-Variable.woff") format("woff"),
+    url("/src/assets/Fonts/WEB/fonts/GeneralSans-Variable.woff2")
+      format("woff2");
+  font-style: normal;
 }
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */

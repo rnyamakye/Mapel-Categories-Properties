@@ -19,11 +19,7 @@ export const PropertiesByCategories = () => {
       <main className="mx-[3vw]">
         <div className="flex flex-col gap-[5px] py-[40px]">
           <div className="flex gap-[10px] items-center">
-            <img
-              src="/670df50b1b9142294387b0b9_ic-title.svg"
-              width={20}
-              alt="Categories"
-            />
+            <img src="/670df50b1b9142294387b0b9_ic-title.svg" width={20} />
             <h2 className="text-[15px] text--body">CATEGORIES</h2>
           </div>
           <div>
@@ -34,12 +30,14 @@ export const PropertiesByCategories = () => {
             {filteredProperties.length > 0 ? (
               filteredProperties.map((property) => (
                 <PropertyCard
+                  to={`/property/${property.id}`}
                   key={property.id}
                   src={property.image}
                   name={property.name}
                   location={property.location}
                   price={property.price}
                   availability={property.availability}
+                  id={property.id}
                 />
               ))
             ) : (

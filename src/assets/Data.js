@@ -1,3 +1,5 @@
+import { LuProjector } from "react-icons/lu";
+
 export const properties = [
   {
     id: 1,
@@ -7,6 +9,52 @@ export const properties = [
     price: "$2,550,000",
     availability: "For Sale",
     category: "Beachfront Villas",
+    description:
+      "Welcome to The Grand Residence, a stunning luxury rental that blends timeless elegance with modern amenities. Featuring spacious interiors, high ceilings, and top-tier finishes, this exquisite property is designed for those who seek both style and comfort. With breathtaking views, a state-of-the-art kitchen, and a private outdoor space.",
+    area: "2,500 sq ft",
+    bedrooms: "4 Beds",
+    bathrooms: "3 Bathrooms",
+    overview:
+      "Urban Chic Townhouse presents a collection of meticulously crafted homes, each designed to elevate the art of modern living. With sprawling green spaces, scenic views, and thoughtfully planned amenities, residents can immerse themselves in a serene retreat without compromising on convenience. Indulge in the charm of Urban Chic Townhouse where every residence is a testament to quality craftsmanship and contemporary design. Whether you're seeking a peaceful escape or a vibrant community, Urban Chic Townhouse welcomes you to lifestyle defined by beauty, comfort, and the allure of nature.",
+    amenities: [
+      {
+        name: "Cinema",
+        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+      },
+      {
+        name: "Swimming Pool",
+        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+      },
+
+      {
+        name: "Garage",
+        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+      },
+      {
+        name: "Fire Security",
+        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+      },
+      {
+        name: "Electricity",
+        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+      },
+      {
+        name: " Security",
+        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+      },
+      {
+        name: "Central Heating",
+        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+      },
+      {
+        name: "Outdoor Kitchen",
+        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+      },
+      {
+        name: "City Water",
+        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+      },
+    ],
   },
   {
     id: 2,
@@ -16,6 +64,48 @@ export const properties = [
     price: "$1,800,000",
     availability: "For Sale",
     category: "City Townhouses",
+    area: "1,800 sq ft",
+    bedrooms: "3 Beds",
+    bathrooms: "2 Bathrooms",
+    amenities: [
+      {
+        name: "Cinema",
+        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+      },
+      {
+        name: "Swimming Pool",
+        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+      },
+
+      {
+        name: "Garage",
+        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+      },
+      {
+        name: "Fire Security",
+        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+      },
+      {
+        name: "Electricity",
+        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+      },
+      {
+        name: " Security",
+        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+      },
+      {
+        name: "Central Heating",
+        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+      },
+      {
+        name: "Outdoor Kitchen",
+        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+      },
+      {
+        name: "City Water",
+        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+      },
+    ],
   },
   {
     id: 3,
@@ -25,6 +115,48 @@ export const properties = [
     price: "$9,000,000",
     availability: "For Rent",
     category: "Industrial Spaces",
+    area: "1,200 sq ft",
+    bedrooms: "2 Beds",
+    bathrooms: "2 Bathrooms",
+    amenities: [
+      {
+        name: "Cinema",
+        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+      },
+      {
+        name: "Swimming Pool",
+        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+      },
+
+      {
+        name: "Garage",
+        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+      },
+      {
+        name: "Fire Security",
+        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+      },
+      {
+        name: "Electricity",
+        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+      },
+      {
+        name: " Security",
+        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+      },
+      {
+        name: "Central Heating",
+        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+      },
+      {
+        name: "Outdoor Kitchen",
+        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+      },
+      {
+        name: "City Water",
+        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+      },
+    ],
   },
   {
     id: 4,
@@ -34,6 +166,48 @@ export const properties = [
     price: "$1,250,000",
     availability: "For Sale",
     category: "Luxury Rentals",
+    area: "1,500 sq ft",
+    bedrooms: "1 Beds",
+    bathrooms: "1 Bathrooms",
+    amenities: [
+      {
+        name: "Cinema",
+        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+      },
+      {
+        name: "Swimming Pool",
+        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+      },
+
+      {
+        name: "Garage",
+        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+      },
+      {
+        name: "Fire Security",
+        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+      },
+      {
+        name: "Electricity",
+        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+      },
+      {
+        name: " Security",
+        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+      },
+      {
+        name: "Central Heating",
+        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+      },
+      {
+        name: "Outdoor Kitchen",
+        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+      },
+      {
+        name: "City Water",
+        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+      },
+    ],
   },
   {
     id: 5,
@@ -43,6 +217,48 @@ export const properties = [
     price: "$3,850,000",
     availability: "For Rent",
     category: "Modern Apartments",
+    area: "3,000 sq ft",
+    bedrooms: "4 Beds",
+    bathrooms: "4 Bathrooms",
+    amenities: [
+      {
+        name: "Cinema",
+        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+      },
+      {
+        name: "Swimming Pool",
+        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+      },
+
+      {
+        name: "Garage",
+        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+      },
+      {
+        name: "Fire Security",
+        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+      },
+      {
+        name: "Electricity",
+        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+      },
+      {
+        name: " Security",
+        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+      },
+      {
+        name: "Central Heating",
+        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+      },
+      {
+        name: "Outdoor Kitchen",
+        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+      },
+      {
+        name: "City Water",
+        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+      },
+    ],
   },
   {
     id: 6,
@@ -52,6 +268,48 @@ export const properties = [
     price: "$2,250,000",
     availability: "For Sale",
     category: "Beachfront Villas",
+    area: "3,000 sq ft",
+    bedrooms: "4 Beds",
+    bathrooms: "4 Bathrooms",
+    amenities: [
+      {
+        name: "Cinema",
+        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+      },
+      {
+        name: "Swimming Pool",
+        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+      },
+
+      {
+        name: "Garage",
+        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+      },
+      {
+        name: "Fire Security",
+        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+      },
+      {
+        name: "Electricity",
+        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+      },
+      {
+        name: " Security",
+        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+      },
+      {
+        name: "Central Heating",
+        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+      },
+      {
+        name: "Outdoor Kitchen",
+        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+      },
+      {
+        name: "City Water",
+        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+      },
+    ],
   },
   {
     id: 7,
@@ -61,6 +319,52 @@ export const properties = [
     price: "$3,550,000",
     availability: "For Rent",
     category: "City Townhouses",
+    description:
+      "Central Park Townhouse is an elegant city residence offering the perfect blend of classic charm & modern luxury. Situated just steps away from Central Park, this townhouse features four spacious bedrooms, gourmet kitchen & a grand living room with a fireplace. The property includes a private garden, multiple balconies, & high ceilings throughout.",
+    area: "2,800 sq ft",
+    bedrooms: "1 Beds",
+    bathrooms: "2 Bathrooms",
+    overview:
+      "Urban Chic Townhouse presents a collection of meticulously crafted homes, each designed to elevate the art of modern living. With sprawling green spaces, scenic views, and thoughtfully planned amenities, residents can immerse themselves in a serene retreat without compromising on convenience. Indulge in the charm of Urban Chic Townhouse where every residence is a testament to quality craftsmanship and contemporary design. \nWhether you're seeking a peaceful escape or a vibrant community, Urban Chic Townhouse welcomes you to lifestyle defined by beauty, comfort, and the allure of nature.",
+    amenities: [
+      {
+        name: "Cinema",
+        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+      },
+      {
+        name: "Swimming Pool",
+        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+      },
+
+      {
+        name: "Garage",
+        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+      },
+      {
+        name: "Fire Security",
+        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+      },
+      {
+        name: "Electricity",
+        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+      },
+      {
+        name: " Security",
+        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+      },
+      {
+        name: "Central Heating",
+        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+      },
+      {
+        name: "Outdoor Kitchen",
+        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+      },
+      {
+        name: "City Water",
+        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+      },
+    ],
   },
   {
     id: 8,
@@ -70,6 +374,48 @@ export const properties = [
     price: "$2,250,000",
     availability: "For Sale",
     category: "Beachfront Villas",
+    area: "3,000 sq ft",
+    bedrooms: "4 Beds",
+    bathrooms: "4 Bathrooms",
+    amenities: [
+      {
+        name: "Cinema",
+        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+      },
+      {
+        name: "Swimming Pool",
+        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+      },
+
+      {
+        name: "Garage",
+        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+      },
+      {
+        name: "Fire Security",
+        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+      },
+      {
+        name: "Electricity",
+        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+      },
+      {
+        name: " Security",
+        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+      },
+      {
+        name: "Central Heating",
+        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+      },
+      {
+        name: "Outdoor Kitchen",
+        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+      },
+      {
+        name: "City Water",
+        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+      },
+    ],
   },
   {
     id: 9,
@@ -79,6 +425,48 @@ export const properties = [
     price: "$9,500,000",
     availability: "For Rent",
     category: "Modern Apartments",
+    area: "1,200 sq ft",
+    bedrooms: "3 Beds",
+    bathrooms: "3 Bathrooms",
+    amenities: [
+      {
+        name: "Cinema",
+        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+      },
+      {
+        name: "Swimming Pool",
+        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+      },
+
+      {
+        name: "Garage",
+        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+      },
+      {
+        name: "Fire Security",
+        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+      },
+      {
+        name: "Electricity",
+        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+      },
+      {
+        name: " Security",
+        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+      },
+      {
+        name: "Central Heating",
+        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+      },
+      {
+        name: "Outdoor Kitchen",
+        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+      },
+      {
+        name: "City Water",
+        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+      },
+    ],
   },
   {
     id: 10,
@@ -88,6 +476,48 @@ export const properties = [
     price: "$1,250,000",
     availability: "For Sale",
     category: "Luxury Rentals",
+    area: "2,200 sq ft",
+    bedrooms: "3 Beds",
+    bathrooms: "3 Bathrooms",
+    amenities: [
+      {
+        name: "Cinema",
+        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+      },
+      {
+        name: "Swimming Pool",
+        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+      },
+
+      {
+        name: "Garage",
+        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+      },
+      {
+        name: "Fire Security",
+        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+      },
+      {
+        name: "Electricity",
+        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+      },
+      {
+        name: " Security",
+        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+      },
+      {
+        name: "Central Heating",
+        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+      },
+      {
+        name: "Outdoor Kitchen",
+        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+      },
+      {
+        name: "City Water",
+        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+      },
+    ],
   },
   {
     id: 11,
@@ -97,6 +527,48 @@ export const properties = [
     price: "$1,750,000",
     availability: "For Rent",
     category: "Modern Apartments",
+    area: "3,000 sq ft",
+    bedrooms: "4 Beds",
+    bathrooms: "4 Bathrooms",
+    amenities: [
+      {
+        name: "Cinema",
+        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+      },
+      {
+        name: "Swimming Pool",
+        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+      },
+
+      {
+        name: "Garage",
+        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+      },
+      {
+        name: "Fire Security",
+        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+      },
+      {
+        name: "Electricity",
+        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+      },
+      {
+        name: " Security",
+        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+      },
+      {
+        name: "Central Heating",
+        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+      },
+      {
+        name: "Outdoor Kitchen",
+        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+      },
+      {
+        name: "City Water",
+        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+      },
+    ],
   },
   {
     id: 12,
@@ -106,6 +578,48 @@ export const properties = [
     price: "$7,500,000",
     availability: "For Rent",
     category: "Beachfront Villas",
+    area: "1,500 sq ft",
+    bedrooms: "2 Beds",
+    bathrooms: "2 Bathrooms",
+    amenities: [
+      {
+        name: "Cinema",
+        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+      },
+      {
+        name: "Swimming Pool",
+        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+      },
+
+      {
+        name: "Garage",
+        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+      },
+      {
+        name: "Fire Security",
+        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+      },
+      {
+        name: "Electricity",
+        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+      },
+      {
+        name: " Security",
+        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+      },
+      {
+        name: "Central Heating",
+        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+      },
+      {
+        name: "Outdoor Kitchen",
+        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+      },
+      {
+        name: "City Water",
+        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+      },
+    ],
   },
 ];
 

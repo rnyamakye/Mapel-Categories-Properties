@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
 
-export const PropertyCard = ({
+export const PropertyDetailsCard = ({
   src,
   location,
   price,
   name,
   availability,
-  id,
   to,
 }) => {
   return (

@@ -1,4 +1,3 @@
-
 import React from "react";
 import MainHeader from "../components/MainHeader";
 import { PropertyCard } from "../components/PropertyCard";
@@ -7,8 +6,7 @@ import { FAQSection } from "../components/FAQSection";
 import { properties } from "../assets/Data";
 
 const PropertiesPageTwo = () => {
-  
-  const remainingProperties = properties.slice(6); 
+  const remainingProperties = properties.slice(6);
 
   return (
     <>
@@ -20,7 +18,7 @@ const PropertiesPageTwo = () => {
           <div className="flex flex-col gap-[5px] py-[40px]">
             <div className="flex gap-[10px] items-center">
               <img
-                src="/670df50b1b9142294387b0b9_ic-title.svg" 
+                src="/670df50b1b9142294387b0b9_ic-title.svg"
                 width={25}
                 alt="New Arrivals"
               />
@@ -35,6 +33,7 @@ const PropertiesPageTwo = () => {
           <div className="flex flex-col items-center gap-[20px]">
             {remainingProperties.map((property) => (
               <PropertyCard
+                to={`/property/${property.id}`}
                 key={property.id}
                 src={property.image}
                 name={property.name}

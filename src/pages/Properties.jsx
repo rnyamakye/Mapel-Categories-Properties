@@ -1,4 +1,3 @@
-
 import React from "react";
 import MainHeader from "../components/MainHeader";
 import { PropertyCard } from "../components/PropertyCard";
@@ -7,7 +6,6 @@ import { FAQSection } from "../components/FAQSection";
 import { properties } from "../assets/Data";
 
 const Properties = () => {
-  
   const displayedProperties = properties.slice(0, 6);
 
   return (
@@ -35,13 +33,14 @@ const Properties = () => {
           <div className="flex flex-col items-center gap-[20px]">
             {displayedProperties.map((property) => (
               <PropertyCard
+                to={`/property/${property.id}`}
                 key={property.id}
                 src={property.image}
                 name={property.name}
                 location={property.location}
                 price={property.price}
                 availability={property.availability}
-                id={property.id} 
+                id={property.id}
               />
             ))}
           </div>

@@ -19,7 +19,7 @@ const Properties = () => {
             </h1>
           </div>
         </div>
-        <div className="flex flex-col items-center gap-[20px]">
+        <div className="flex flex-col items-center gap-[20px] md:grid md:grid-cols-2 lg:grid-cols-3">
           {categories.map((category) => (
             <CategoryCard
               key={category.id}

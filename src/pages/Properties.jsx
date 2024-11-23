@@ -25,12 +25,12 @@ const Properties = () => {
               <h2 className="text-[16px] text--body">NEW ARRIVALS</h2>
             </div>
             <div>
-              <h1 className="text-[32px] md:font-[38px] font-semibold">
+              <h1 className="text-[32px] md:font-[38px] lg:text-[48px] font-semibold">
                 Latest Properties
               </h1>
             </div>
           </div>
-          <div className="flex flex-col items-center gap-[20px]">
+          <div className="flex flex-col items-center gap-[20px]  md:grid md:grid-cols-2 lg:grid-cols-3">
             {displayedProperties.map((property) => (
               <PropertyCard
                 to={`/property/${property.id}`}
@@ -50,7 +50,7 @@ const Properties = () => {
           </div>
         </section>
 
-        <section className="FAQSection w-[90%]">
+        <section className="FAQSection">
           <FAQSection />
         </section>
       </main>

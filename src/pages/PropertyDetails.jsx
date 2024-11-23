@@ -39,31 +39,38 @@ export const PropertyDetails = () => {
       <nav>
         <MainHeader />
       </nav>
-      <main className="mx-[5vw] pb-[50px]">
+      <main className="mx-[5vw] md:mx-[10vw] pb-[50px]">
         <section className="flex flex-col gap-[30px] pb-[50px]">
           {" "}
-          <div className=" flex flex-col gap-[20px]">
-            <div>
-              <h1 className="text-[28px] font-medium">{property.name}</h1>
-              <p className="text-[14px] opacity-90">{property.description}</p>
+          <div className=" flex flex-col gap-[20px] lg:flex-row">
+            <div className="w-full lg:w-3/4">
+              <h1 className="text-[28px] md:text-[36px] lg:text-[46px] font-medium">
+                {property.name}
+              </h1>
+              <p className="text-[14px] md:text-[16px] opacity-90">
+                {property.description}
+              </p>
             </div>
-            <div>
-              <div className="border-b py-[10px]">
-                <p className="font-[550] text-[18px]">Area</p>
+            <div className="flex flex-col md:flex-row md:justify-between lg:flex-col w-full lg:w-1/4">
+              <div className=" py-[10px]">
+                <p className="font-medium text-[18px]">Area</p>
                 <span className="opacity-90 text-[14px]">{property.area}</span>
               </div>
-              <div className="border-b py-[10px]">
-                <p className="font-[550] text-[18px]">Bedrooms</p>
+              <div className="w-full h-[1px] md:w-[1px] md:h-[80px] lg:h-[1px] lg:w-[100%] -bg--body opacity-20"></div>
+              <div className=" py-[10px]">
+                <p className="font-medium text-[18px]">Bedrooms</p>
                 <span className="opacity-90 text-[14px]">
                   {property.bedrooms}
                 </span>
               </div>
-              <div className="border-b py-[10px]">
-                <p className="font-[550] text-[18px]">Bathrooms</p>
+              <div className="w-full h-[1px] md:w-[1px] md:h-[80px] lg:h-[1px] lg:w-[100%] -bg--body opacity-20"></div>
+              <div className=" py-[10px]">
+                <p className="font-medium text-[18px]">Bathrooms</p>
                 <span className="opacity-90 text-[14px]">
                   {property.bathrooms}
                 </span>
               </div>
+              <div className="w-full h-[1px] md:w-[1px] md:h-[80px] lg:h-[1px] lg:w-[100%] -bg--body opacity-20"></div>
             </div>
           </div>
           <div className="flex flex-col gap-[30px]">
@@ -71,30 +78,34 @@ export const PropertyDetails = () => {
               <img
                 src={property.image}
                 alt={property.name}
-                className="w-full h-[250px] object-cover"
+                className="w-full h-[350px] md:w-full md:min-h-[350px] mmd:min-h-[450px] lg:min-h-[650px] object-cover"
               />
               <p className="absolute top-0 right-0 -bg--background w-fit py-1 px-2">
                 {property.price}
               </p>
             </div>
-            <div className="flex flex-col gap-[40px]">
-              <div className="flex flex-col gap-[15px] ">
+            <div className="relative flex flex-col gap-[40px] ">
+              <div className="flex flex-col gap-[15px] w-full lg:w-3/4">
                 <h2 className="text-[26px] ">Overview</h2>
                 <p className="text-[16px] leading-7">{property.overview}</p>
               </div>
 
               <div className="flex flex-col gap-[15px]">
-                <h3 className="text-[26px]">Amenities</h3>
-                <div className="grid grid-cols-2 gap-y-5">
+                <h3 className="text-[26px] md:text-[30px] font-medium">
+                  Amenities
+                </h3>
+                <div className="grid grid-cols-2 gap-y-5 md:grid-cols-3">
                   {property.amenities.map((amenity, index) => (
                     <li key={index} className="flex items-center gap-3 ">
                       <img src={amenity.icon} />
-                      <p className="text-[13px] opacity-90">{amenity.name}</p>
+                      <p className="text-[13px] md:text-[16px] opacity-90">
+                        {amenity.name}
+                      </p>
                     </li>
                   ))}
                 </div>
               </div>
-              <div className="border p-5 flex flex-col gap-3">
+              <div className="relative border p-5 flex flex-col gap-3 md:p-8 lg:absolute top-0 right-0">
                 <span className="flex gap-2 items-center">
                   <img src="/public/6710e123436f6b69a0b2d086_ic-name.svg" />
                   <p>Bessie Cooper</p>
@@ -130,7 +141,7 @@ export const PropertyDetails = () => {
             </div>
 
             <h2 className="mt-6 text-[30px] ">Related Properties</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 place-content-between md:gap-5">
               {shuffledRelatedProperties.map((related) => (
                 <PropertyCard
                   to={`/property/${related.id}`}

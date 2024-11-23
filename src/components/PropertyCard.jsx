@@ -10,7 +10,7 @@ export const PropertyCard = ({
   to,
 }) => {
   return (
-    <div className="group relative w-[100%] h-[100%] cursor-pointer overflow-hidden transition-opacity hover:opacity-100">
+    <div className="group relative w-[100%] h-[100%] cursor-pointer overflow-hidden transition-opacity hover:opacity-100 md:min-w-[100px] md:max-w-[400px]">
       <Link to={to}>
         <img
           src={src}

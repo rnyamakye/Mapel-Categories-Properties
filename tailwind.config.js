@@ -2,16 +2,16 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    screen: {
+    screens: {
       sm: "200px",
-      md: "576px",
-      "2md": "720px",
+      md: "540px",
+      mmd: "767px",
       lg: "1080px",
     },
     extend: {
       colors: {
         "--background": "#f0eadd",
-        '--body': '#333'
+        "--body": "#333",
       },
     },
   },

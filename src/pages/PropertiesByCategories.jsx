@@ -26,7 +26,7 @@ export const PropertiesByCategories = () => {
             <h1 className="text-[32px] font-medium mt-4">{category}</h1>{" "}
           </div>
 
-          <div className="flex flex-col items-center gap-[20px] mt-4">
+          <div className="flex flex-col items-center gap-[20px] mt-4 md:grid md:grid-cols-2 lg:grid-cols-3">
             {filteredProperties.length > 0 ? (
               filteredProperties.map((property) => (
                 <PropertyCard

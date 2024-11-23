@@ -64,9 +64,13 @@ export const properties = [
     price: "$1,800,000",
     availability: "For Sale",
     category: "City Townhouses",
+    description:
+      "The property also includes a private rooftop terrace, perfect for taking in city views or hosting evening gatherings. With its prime location, the Urban Chic Townhouse is just steps away from boutique shopping, gourmet restaurants, and parks, offering the best of city living right at your doorstep.",
     area: "1,800 sq ft",
     bedrooms: "3 Beds",
     bathrooms: "2 Bathrooms",
+    overview:
+      "Urban Chic Townhouse presents a collection of meticulously crafted homes, each designed to elevate the art of modern living. With sprawling green spaces, scenic views, and thoughtfully planned amenities, residents can immerse themselves in a serene retreat without compromising on convenience. Indulge in the charm of Urban Chic Townhouse where every residence is a testament to quality craftsmanship and contemporary design. \nWhether you're seeking a peaceful escape or a vibrant community, Urban Chic Townhouse welcomes you to lifestyle defined by beauty, comfort, and the allure of nature.",
     amenities: [
       {
         name: "Cinema",
@@ -115,9 +119,13 @@ export const properties = [
     price: "$9,000,000",
     availability: "For Rent",
     category: "Industrial Spaces",
+    description:
+      "The Skyline View Apartment offers a perfect blend of urban sophistication and comfort. With panoramic city views, floor-to-ceiling windows, and an open-concept layout, this property is ideal for modern living. The apartment features a sleek kitchen with high-end appliances, spacious bedrooms, and a private balcony to take in the vibrant cityscape.",
     area: "1,200 sq ft",
     bedrooms: "2 Beds",
     bathrooms: "2 Bathrooms",
+    overview:
+      "Urban Chic Townhouse presents a collection of meticulously crafted homes, each designed to elevate the art of modern living. With sprawling green spaces, scenic views, and thoughtfully planned amenities, residents can immerse themselves in a serene retreat without compromising on convenience. Indulge in the charm of Urban Chic Townhouse where every residence is a testament to quality craftsmanship and contemporary design. \nWhether you're seeking a peaceful escape or a vibrant community, Urban Chic Townhouse welcomes you to lifestyle defined by beauty, comfort, and the allure of nature.",
     amenities: [
       {
         name: "Cinema",
@@ -166,9 +174,13 @@ export const properties = [
     price: "$1,250,000",
     availability: "For Sale",
     category: "Luxury Rentals",
+    description:
+      "The Factory Loft is a unique industrial space, blending raw architectural elements with contemporary comforts. Boasting exposed brick walls, high ceilings, and large steel-framed windows, this property exudes character and charm. The expansive open floor plan is perfect for creative professionals or those looking for a stylish urban retreat.",
     area: "1,500 sq ft",
     bedrooms: "1 Beds",
     bathrooms: "1 Bathrooms",
+    overview:
+      "Urban Chic Townhouse presents a collection of meticulously crafted homes, each designed to elevate the art of modern living. With sprawling green spaces, scenic views, and thoughtfully planned amenities, residents can immerse themselves in a serene retreat without compromising on convenience. Indulge in the charm of Urban Chic Townhouse where every residence is a testament to quality craftsmanship and contemporary design. \nWhether you're seeking a peaceful escape or a vibrant community, Urban Chic Townhouse welcomes you to lifestyle defined by beauty, comfort, and the allure of nature.",
     amenities: [
       {
         name: "Cinema",
@@ -217,9 +229,13 @@ export const properties = [
     price: "$3,850,000",
     availability: "For Rent",
     category: "Modern Apartments",
-    area: "3,000 sq ft",
-    bedrooms: "4 Beds",
+    description:
+      "Ocean Breeze Villa is a breathtaking beachfront property that offers an unparalleled living experience by the sea. The property boasts a private pool, direct beach access, and panoramic ocean views from every room. Ideal for those seeking a serene and luxurious coastal retreat, Ocean Breeze Villa is the epitome of elegance and relaxation.",
+    area: "1,800 sq ft",
+    bedrooms: "5 Beds",
     bathrooms: "4 Bathrooms",
+    overview:
+      "Urban Chic Townhouse presents a collection of meticulously crafted homes, each designed to elevate the art of modern living. With sprawling green spaces, scenic views, and thoughtfully planned amenities, residents can immerse themselves in a serene retreat without compromising on convenience. Indulge in the charm of Urban Chic Townhouse where every residence is a testament to quality craftsmanship and contemporary design. \nWhether you're seeking a peaceful escape or a vibrant community, Urban Chic Townhouse welcomes you to lifestyle defined by beauty, comfort, and the allure of nature.",
     amenities: [
       {
         name: "Cinema",
@@ -268,9 +284,13 @@ export const properties = [
     price: "$2,250,000",
     availability: "For Sale",
     category: "Beachfront Villas",
+    description:
+      "Penthouse Suite is the pinnacle of high-end city living, offering unparalleled sophistication & breathtaking skyline views. This exquisite property features a spacious open floor plan, luxurious finishes, & a private rooftop terrace. Ideal for entertaining or enjoying quiet evenings in, The Penthouse Suite promises a lifestyle of elegance & exclusivity.",
     area: "3,000 sq ft",
     bedrooms: "4 Beds",
     bathrooms: "4 Bathrooms",
+    overview:
+      "Urban Chic Townhouse presents a collection of meticulously crafted homes, each designed to elevate the art of modern living. With sprawling green spaces, scenic views, and thoughtfully planned amenities, residents can immerse themselves in a serene retreat without compromising on convenience. Indulge in the charm of Urban Chic Townhouse where every residence is a testament to quality craftsmanship and contemporary design. \nWhether you're seeking a peaceful escape or a vibrant community, Urban Chic Townhouse welcomes you to lifestyle defined by beauty, comfort, and the allure of nature.",
     amenities: [
       {
         name: "Cinema",
@@ -367,57 +387,6 @@ export const properties = [
     ],
   },
   {
-    id: 8,
-    name: "Penthouse Suite",
-    image: "/6710b624f56ded5147112b07_property-thumb-06.jpg",
-    location: "Miami, USA",
-    price: "$2,250,000",
-    availability: "For Sale",
-    category: "Beachfront Villas",
-    area: "3,000 sq ft",
-    bedrooms: "4 Beds",
-    bathrooms: "4 Bathrooms",
-    amenities: [
-      {
-        name: "Cinema",
-        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
-      },
-      {
-        name: "Swimming Pool",
-        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
-      },
-
-      {
-        name: "Garage",
-        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
-      },
-      {
-        name: "Fire Security",
-        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
-      },
-      {
-        name: "Electricity",
-        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
-      },
-      {
-        name: " Security",
-        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
-      },
-      {
-        name: "Central Heating",
-        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
-      },
-      {
-        name: "Outdoor Kitchen",
-        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
-      },
-      {
-        name: "City Water",
-        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
-      },
-    ],
-  },
-  {
     id: 9,
     name: "Urban Loft Apartment",
     image: "/6710b6b4c4cfa11400f1003d_property-thumb-08.jpg",
@@ -425,9 +394,13 @@ export const properties = [
     price: "$9,500,000",
     availability: "For Rent",
     category: "Modern Apartments",
+    description:
+      "Urban Loft Apartment is a stylish residence featuring an open-concept design with high ceilings and large windows that flood the space with natural light. This modern apartment includes a sleek kitchen and spacious living area, making it ideal for trendy city living. Perfectly situated for those who appreciate comfort and contemporary style.",
     area: "1,200 sq ft",
     bedrooms: "3 Beds",
     bathrooms: "3 Bathrooms",
+    overview:
+      "Urban Chic Townhouse presents a collection of meticulously crafted homes, each designed to elevate the art of modern living. With sprawling green spaces, scenic views, and thoughtfully planned amenities, residents can immerse themselves in a serene retreat without compromising on convenience. Indulge in the charm of Urban Chic Townhouse where every residence is a testament to quality craftsmanship and contemporary design. \nWhether you're seeking a peaceful escape or a vibrant community, Urban Chic Townhouse welcomes you to lifestyle defined by beauty, comfort, and the allure of nature.",
     amenities: [
       {
         name: "Cinema",
@@ -476,9 +449,13 @@ export const properties = [
     price: "$1,250,000",
     availability: "For Sale",
     category: "Luxury Rentals",
+    description:
+      "The Luxury Waterfront Condo offers breathtaking views of the ocean with modern finishes and luxurious amenities. This spacious property features an open-concept living area, gourmet kitchen, and large windows that flood the space with natural light. Ideal for relaxation and entertainment, it combines elegance with coastal charm.",
     area: "2,200 sq ft",
     bedrooms: "3 Beds",
     bathrooms: "3 Bathrooms",
+    overview:
+      "Urban Chic Townhouse presents a collection of meticulously crafted homes, each designed to elevate the art of modern living. With sprawling green spaces, scenic views, and thoughtfully planned amenities, residents can immerse themselves in a serene retreat without compromising on convenience. Indulge in the charm of Urban Chic Townhouse where every residence is a testament to quality craftsmanship and contemporary design. \nWhether you're seeking a peaceful escape or a vibrant community, Urban Chic Townhouse welcomes you to lifestyle defined by beauty, comfort, and the allure of nature.",
     amenities: [
       {
         name: "Cinema",
@@ -527,9 +504,13 @@ export const properties = [
     price: "$1,750,000",
     availability: "For Rent",
     category: "Modern Apartments",
+    description:
+      "The Newly Built Family Home offers modern living with four spacious bedrooms and en-suite bathrooms, perfect for growing families. Its open-plan kitchen and dining area provide a welcoming space for gatherings. The home features a private backyard and high-quality finishes throughout.",
     area: "3,000 sq ft",
     bedrooms: "4 Beds",
     bathrooms: "4 Bathrooms",
+    overview:
+      "Urban Chic Townhouse presents a collection of meticulously crafted homes, each designed to elevate the art of modern living. With sprawling green spaces, scenic views, and thoughtfully planned amenities, residents can immerse themselves in a serene retreat without compromising on convenience. Indulge in the charm of Urban Chic Townhouse where every residence is a testament to quality craftsmanship and contemporary design. \nWhether you're seeking a peaceful escape or a vibrant community, Urban Chic Townhouse welcomes you to lifestyle defined by beauty, comfort, and the allure of nature.",
     amenities: [
       {
         name: "Cinema",
@@ -578,9 +559,13 @@ export const properties = [
     price: "$7,500,000",
     availability: "For Rent",
     category: "Beachfront Villas",
+    description:
+      "Sunlit Condo with Views is a bright and airy apartment offering stunning cityscape and sunset views. This modern space features an open floor plan with large windows, allowing natural light to fill every corner. With two spacious bedrooms, two bathrooms, and a sleek kitchen, it's ideal for those seeking a serene urban retreat.",
     area: "1,500 sq ft",
     bedrooms: "2 Beds",
     bathrooms: "2 Bathrooms",
+    overview:
+      "Urban Chic Townhouse presents a collection of meticulously crafted homes, each designed to elevate the art of modern living. With sprawling green spaces, scenic views, and thoughtfully planned amenities, residents can immerse themselves in a serene retreat without compromising on convenience. Indulge in the charm of Urban Chic Townhouse where every residence is a testament to quality craftsmanship and contemporary design. \nWhether you're seeking a peaceful escape or a vibrant community, Urban Chic Townhouse welcomes you to lifestyle defined by beauty, comfort, and the allure of nature.",
     amenities: [
       {
         name: "Cinema",

@@ -15,7 +15,7 @@ export const PropertyCard = ({
         <img
           src={src}
           alt={name}
-          className="object-cover w-full h-[100%] md:h-full transform transition duration-500 group-hover:scale-[1.05] cursor-zoom-in"
+          className="object-cover w-full h-[100%] md:h-full transform transition duration-500 group-hover:scale-[1.05]"
         />
         <div className="absolute top-3 right-3 bg-white w-fit px-2 py-1 text-[14px]">
           {availability}

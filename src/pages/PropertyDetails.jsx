@@ -34,6 +34,17 @@ export const PropertyDetails = () => {
 
   const shuffledRelatedProperties = shuffleArray(relatedProperties);
 
+  useEffect(() => {
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    };
+
+    scrollToTop();
+  }, [id]);
+
   return (
     <>
       <nav>
@@ -78,7 +89,7 @@ export const PropertyDetails = () => {
               <img
                 src={property.image}
                 alt={property.name}
-                className="w-full h-[350px] md:w-full md:min-h-[350px] mmd:min-h-[450px] lg:min-h-[650px] object-cover"
+                className="w-full h-[250px] md:w-full md:min-h-[350px] mmd:min-h-[450px] lg:min-h-[650px] object-cover"
               />
               <p className="absolute top-0 right-0 -bg--background w-fit py-1 px-2">
                 {property.price}
@@ -126,7 +137,7 @@ export const PropertyDetails = () => {
             </div>
           </div>
           <div>
-            <DetailsButton />
+            <DetailsButton to={'/contact'}/>
           </div>
         </section>
         <section>

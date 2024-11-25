@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "General Sans", sans-serif;
   overflow-x: hidden;
@@ -11,4 +15,19 @@ body {
     url("/src/assets/Fonts/WEB/fonts/GeneralSans-Variable.woff2")
       format("woff2");
   font-style: normal;
+}
+
+.next {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.previous {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5px;
+}
+.previous > span {
+  transform: rotate(270deg);
 }

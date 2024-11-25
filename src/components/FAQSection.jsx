@@ -8,8 +8,6 @@ export const FAQSection = () => {
     threshold: 0.1,
     triggerOnce: true,
   });
-
-  // Define animation variants
   const overlayVariants = {
     hidden: { opacity: "0", width: "100%" },
     visible: { opacity: "100", width: "0%" },
@@ -28,7 +26,7 @@ export const FAQSection = () => {
           Frequently Asked Questions
         </h2>
         <div className="flex flex-col lg:flex-row gap-[40px] items-center">
-          <div className="relative w-fit h-fit lg:w-[70%]">
+          <div className="relative w-fit h-fit lg:w-[100%]">
             <img
               ref={ref}
               src="/670df70a92970a0fe61e84f2_faq.jpg"

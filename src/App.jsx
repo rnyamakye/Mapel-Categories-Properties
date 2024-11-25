@@ -2,14 +2,14 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Properties from "./pages/Properties";
-import PropertiesPageTwo from "./pages/PropertiesPageTwo";
+import { PropertyDetails } from "./pages/PropertyDetails";
+import PropertiesByCategories from "./pages/PropertiesByCategories";
 import Categories from "./pages/Categories";
 import Blogs from "./pages/Blogs";
 import Services from "./pages/Services";
+import { Contact } from "./pages/Contact";
 import "./App.css";
 import "./fonts.css";
-import { PropertyDetails } from "./pages/PropertyDetails";
-import PropertiesByCategories from "./pages/PropertiesByCategories";
 
 const router = createBrowserRouter([
   {
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     element: <About />,
   },
   {
-    path: "/properties",
+    path: "/properties/:pageNumber?",
     element: <Properties />,
   },
   {
@@ -36,10 +36,7 @@ const router = createBrowserRouter([
     path: "/services",
     element: <Services />,
   },
-  {
-    path: "/properties-page-2",
-    element: <PropertiesPageTwo />,
-  },
+
   {
     path: "/property/:id",
     element: <PropertyDetails />,
@@ -47,6 +44,10 @@ const router = createBrowserRouter([
   {
     path: "/categories/:category", // Route for categories
     element: <PropertiesByCategories />,
+  },
+  {
+    path: "/contact", // Route for categories
+    element: <Contact />,
   },
 ]);
 export default function App() {

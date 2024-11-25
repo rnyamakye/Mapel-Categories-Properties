@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import MainHeader from "../components/MainHeader";
 import { PropertyCard } from "../components/PropertyCard";
@@ -11,12 +11,16 @@ export const PropertiesByCategories = () => {
     (property) => property.category === category
   );
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <nav>
         <MainHeader />
       </nav>
-      <main className="mx-[3vw]">
+      <main className="mx-[5vw] lg:mx-[10vw]">
         <div className="flex flex-col gap-[5px] py-[40px]">
           <div className="flex gap-[10px] items-center">
             <img src="/670df50b1b9142294387b0b9_ic-title.svg" width={20} />

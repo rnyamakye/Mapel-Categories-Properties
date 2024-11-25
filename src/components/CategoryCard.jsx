@@ -4,8 +4,6 @@ export const CategoryCard = ({ categoryName, src, description, category }) => {
   return (
     <div className="group relative w-full h-full cursor-pointer overflow-hidden transition-opacity hover:opacity-100 md:min-w-[100px] md:max-w-[400px] md:h-[400px] ">
       <Link to={`/categories/${category}`}>
-        {" "}
-        {/* Updated link to match new routing */}
         <img
           src={src}
           alt={categoryName}

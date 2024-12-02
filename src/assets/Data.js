@@ -19,40 +19,40 @@ export const properties = [
     amenities: [
       {
         name: "Cinema",
-        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+        icon: "/6710a1810950d75ad7e43be6_ic-cinema.svg",
       },
       {
         name: "Swimming Pool",
-        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+        icon: "/6710a191c4dd72e625409aa2_ic-pool.svg",
       },
 
       {
         name: "Garage",
-        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+        icon: "/6710a1b083172b416980813c_ic-garage.svg",
       },
       {
         name: "Fire Security",
-        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+        icon: "/6710a1ea78877da96aee27e2_ic-fire.svg",
       },
       {
         name: "Electricity",
-        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+        icon: "/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
       },
       {
         name: " Security",
-        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+        icon: "/6710a1db93f2db79b265cc1a_ic-security.svg",
       },
       {
         name: "Central Heating",
-        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+        icon: "/6710a1a7493442e79209a272_ic-heating.svg",
       },
       {
         name: "Outdoor Kitchen",
-        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+        icon: "/6710a17627b3e301756fe0d8_ic-kitchen.svg",
       },
       {
         name: "City Water",
-        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+        icon: "/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
       },
     ],
   },
@@ -74,40 +74,40 @@ export const properties = [
     amenities: [
       {
         name: "Cinema",
-        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+        icon: "/6710a1810950d75ad7e43be6_ic-cinema.svg",
       },
       {
         name: "Swimming Pool",
-        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+        icon: "/6710a191c4dd72e625409aa2_ic-pool.svg",
       },
 
       {
         name: "Garage",
-        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+        icon: "/6710a1b083172b416980813c_ic-garage.svg",
       },
       {
         name: "Fire Security",
-        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+        icon: "/6710a1ea78877da96aee27e2_ic-fire.svg",
       },
       {
         name: "Electricity",
-        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+        icon: "/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
       },
       {
         name: " Security",
-        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+        icon: "/6710a1db93f2db79b265cc1a_ic-security.svg",
       },
       {
         name: "Central Heating",
-        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+        icon: "/6710a1a7493442e79209a272_ic-heating.svg",
       },
       {
         name: "Outdoor Kitchen",
-        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+        icon: "/6710a17627b3e301756fe0d8_ic-kitchen.svg",
       },
       {
         name: "City Water",
-        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+        icon: "/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
       },
     ],
   },
@@ -129,40 +129,40 @@ export const properties = [
     amenities: [
       {
         name: "Cinema",
-        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+        icon: "/6710a1810950d75ad7e43be6_ic-cinema.svg",
       },
       {
         name: "Swimming Pool",
-        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+        icon: "/6710a191c4dd72e625409aa2_ic-pool.svg",
       },
 
       {
         name: "Garage",
-        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+        icon: "/6710a1b083172b416980813c_ic-garage.svg",
       },
       {
         name: "Fire Security",
-        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+        icon: "/6710a1ea78877da96aee27e2_ic-fire.svg",
       },
       {
         name: "Electricity",
-        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+        icon: "/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
       },
       {
         name: " Security",
-        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+        icon: "/6710a1db93f2db79b265cc1a_ic-security.svg",
       },
       {
         name: "Central Heating",
-        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+        icon: "/6710a1a7493442e79209a272_ic-heating.svg",
       },
       {
         name: "Outdoor Kitchen",
-        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+        icon: "/6710a17627b3e301756fe0d8_ic-kitchen.svg",
       },
       {
         name: "City Water",
-        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+        icon: "/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
       },
     ],
   },
@@ -184,40 +184,40 @@ export const properties = [
     amenities: [
       {
         name: "Cinema",
-        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+        icon: "/6710a1810950d75ad7e43be6_ic-cinema.svg",
       },
       {
         name: "Swimming Pool",
-        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+        icon: "/6710a191c4dd72e625409aa2_ic-pool.svg",
       },
 
       {
         name: "Garage",
-        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+        icon: "/6710a1b083172b416980813c_ic-garage.svg",
       },
       {
         name: "Fire Security",
-        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+        icon: "/6710a1ea78877da96aee27e2_ic-fire.svg",
       },
       {
         name: "Electricity",
-        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+        icon: "/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
       },
       {
         name: " Security",
-        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+        icon: "/6710a1db93f2db79b265cc1a_ic-security.svg",
       },
       {
         name: "Central Heating",
-        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+        icon: "/6710a1a7493442e79209a272_ic-heating.svg",
       },
       {
         name: "Outdoor Kitchen",
-        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+        icon: "/6710a17627b3e301756fe0d8_ic-kitchen.svg",
       },
       {
         name: "City Water",
-        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+        icon: "/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
       },
     ],
   },
@@ -239,40 +239,40 @@ export const properties = [
     amenities: [
       {
         name: "Cinema",
-        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+        icon: "/6710a1810950d75ad7e43be6_ic-cinema.svg",
       },
       {
         name: "Swimming Pool",
-        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+        icon: "/6710a191c4dd72e625409aa2_ic-pool.svg",
       },
 
       {
         name: "Garage",
-        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+        icon: "/6710a1b083172b416980813c_ic-garage.svg",
       },
       {
         name: "Fire Security",
-        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+        icon: "/6710a1ea78877da96aee27e2_ic-fire.svg",
       },
       {
         name: "Electricity",
-        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+        icon: "/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
       },
       {
         name: " Security",
-        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+        icon: "/6710a1db93f2db79b265cc1a_ic-security.svg",
       },
       {
         name: "Central Heating",
-        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+        icon: "/6710a1a7493442e79209a272_ic-heating.svg",
       },
       {
         name: "Outdoor Kitchen",
-        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+        icon: "/6710a17627b3e301756fe0d8_ic-kitchen.svg",
       },
       {
         name: "City Water",
-        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+        icon: "/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
       },
     ],
   },
@@ -294,40 +294,40 @@ export const properties = [
     amenities: [
       {
         name: "Cinema",
-        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+        icon: "/6710a1810950d75ad7e43be6_ic-cinema.svg",
       },
       {
         name: "Swimming Pool",
-        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+        icon: "/6710a191c4dd72e625409aa2_ic-pool.svg",
       },
 
       {
         name: "Garage",
-        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+        icon: "/6710a1b083172b416980813c_ic-garage.svg",
       },
       {
         name: "Fire Security",
-        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+        icon: "/6710a1ea78877da96aee27e2_ic-fire.svg",
       },
       {
         name: "Electricity",
-        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+        icon: "/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
       },
       {
         name: " Security",
-        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+        icon: "/6710a1db93f2db79b265cc1a_ic-security.svg",
       },
       {
         name: "Central Heating",
-        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+        icon: "/6710a1a7493442e79209a272_ic-heating.svg",
       },
       {
         name: "Outdoor Kitchen",
-        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+        icon: "/6710a17627b3e301756fe0d8_ic-kitchen.svg",
       },
       {
         name: "City Water",
-        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+        icon: "/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
       },
     ],
   },
@@ -349,40 +349,40 @@ export const properties = [
     amenities: [
       {
         name: "Cinema",
-        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+        icon: "/6710a1810950d75ad7e43be6_ic-cinema.svg",
       },
       {
         name: "Swimming Pool",
-        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+        icon: "/6710a191c4dd72e625409aa2_ic-pool.svg",
       },
 
       {
         name: "Garage",
-        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+        icon: "/6710a1b083172b416980813c_ic-garage.svg",
       },
       {
         name: "Fire Security",
-        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+        icon: "/6710a1ea78877da96aee27e2_ic-fire.svg",
       },
       {
         name: "Electricity",
-        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+        icon: "/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
       },
       {
         name: " Security",
-        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+        icon: "/6710a1db93f2db79b265cc1a_ic-security.svg",
       },
       {
         name: "Central Heating",
-        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+        icon: "/6710a1a7493442e79209a272_ic-heating.svg",
       },
       {
         name: "Outdoor Kitchen",
-        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+        icon: "/6710a17627b3e301756fe0d8_ic-kitchen.svg",
       },
       {
         name: "City Water",
-        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+        icon: "/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
       },
     ],
   },
@@ -404,40 +404,40 @@ export const properties = [
     amenities: [
       {
         name: "Cinema",
-        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+        icon: "/6710a1810950d75ad7e43be6_ic-cinema.svg",
       },
       {
         name: "Swimming Pool",
-        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+        icon: "/6710a191c4dd72e625409aa2_ic-pool.svg",
       },
 
       {
         name: "Garage",
-        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+        icon: "/6710a1b083172b416980813c_ic-garage.svg",
       },
       {
         name: "Fire Security",
-        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+        icon: "/6710a1ea78877da96aee27e2_ic-fire.svg",
       },
       {
         name: "Electricity",
-        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+        icon: "/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
       },
       {
         name: " Security",
-        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+        icon: "/6710a1db93f2db79b265cc1a_ic-security.svg",
       },
       {
         name: "Central Heating",
-        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+        icon: "/6710a1a7493442e79209a272_ic-heating.svg",
       },
       {
         name: "Outdoor Kitchen",
-        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+        icon: "/6710a17627b3e301756fe0d8_ic-kitchen.svg",
       },
       {
         name: "City Water",
-        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+        icon: "/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
       },
     ],
   },
@@ -459,40 +459,40 @@ export const properties = [
     amenities: [
       {
         name: "Cinema",
-        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+        icon: "/6710a1810950d75ad7e43be6_ic-cinema.svg",
       },
       {
         name: "Swimming Pool",
-        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+        icon: "/6710a191c4dd72e625409aa2_ic-pool.svg",
       },
 
       {
         name: "Garage",
-        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+        icon: "/6710a1b083172b416980813c_ic-garage.svg",
       },
       {
         name: "Fire Security",
-        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+        icon: "/6710a1ea78877da96aee27e2_ic-fire.svg",
       },
       {
         name: "Electricity",
-        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+        icon: "/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
       },
       {
         name: " Security",
-        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+        icon: "/6710a1db93f2db79b265cc1a_ic-security.svg",
       },
       {
         name: "Central Heating",
-        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+        icon: "/6710a1a7493442e79209a272_ic-heating.svg",
       },
       {
         name: "Outdoor Kitchen",
-        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+        icon: "/6710a17627b3e301756fe0d8_ic-kitchen.svg",
       },
       {
         name: "City Water",
-        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+        icon: "/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
       },
     ],
   },
@@ -514,40 +514,40 @@ export const properties = [
     amenities: [
       {
         name: "Cinema",
-        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+        icon: "/6710a1810950d75ad7e43be6_ic-cinema.svg",
       },
       {
         name: "Swimming Pool",
-        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+        icon: "/6710a191c4dd72e625409aa2_ic-pool.svg",
       },
 
       {
         name: "Garage",
-        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+        icon: "/6710a1b083172b416980813c_ic-garage.svg",
       },
       {
         name: "Fire Security",
-        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+        icon: "/6710a1ea78877da96aee27e2_ic-fire.svg",
       },
       {
         name: "Electricity",
-        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+        icon: "/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
       },
       {
         name: " Security",
-        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+        icon: "/6710a1db93f2db79b265cc1a_ic-security.svg",
       },
       {
         name: "Central Heating",
-        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+        icon: "/6710a1a7493442e79209a272_ic-heating.svg",
       },
       {
         name: "Outdoor Kitchen",
-        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+        icon: "/6710a17627b3e301756fe0d8_ic-kitchen.svg",
       },
       {
         name: "City Water",
-        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+        icon: "/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
       },
     ],
   },
@@ -569,40 +569,40 @@ export const properties = [
     amenities: [
       {
         name: "Cinema",
-        icon: "/public/6710a1810950d75ad7e43be6_ic-cinema.svg",
+        icon: "/6710a1810950d75ad7e43be6_ic-cinema.svg",
       },
       {
         name: "Swimming Pool",
-        icon: "/public/6710a191c4dd72e625409aa2_ic-pool.svg",
+        icon: "/6710a191c4dd72e625409aa2_ic-pool.svg",
       },
 
       {
         name: "Garage",
-        icon: "/public/6710a1b083172b416980813c_ic-garage.svg",
+        icon: "/6710a1b083172b416980813c_ic-garage.svg",
       },
       {
         name: "Fire Security",
-        icon: "/public/6710a1ea78877da96aee27e2_ic-fire.svg",
+        icon: "/6710a1ea78877da96aee27e2_ic-fire.svg",
       },
       {
         name: "Electricity",
-        icon: "/public/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
+        icon: "/6710a1bc4c0245409e4b16d1_ic-electricity.svg",
       },
       {
         name: " Security",
-        icon: "/public/6710a1db93f2db79b265cc1a_ic-security.svg",
+        icon: "/6710a1db93f2db79b265cc1a_ic-security.svg",
       },
       {
         name: "Central Heating",
-        icon: "/public/6710a1a7493442e79209a272_ic-heating.svg",
+        icon: "/6710a1a7493442e79209a272_ic-heating.svg",
       },
       {
         name: "Outdoor Kitchen",
-        icon: "/public/6710a17627b3e301756fe0d8_ic-kitchen.svg",
+        icon: "/6710a17627b3e301756fe0d8_ic-kitchen.svg",
       },
       {
         name: "City Water",
-        icon: "/public/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
+        icon: "/6710a1ce1bfbb88a0652dc7c_ic-water.svg",
       },
     ],
   },
